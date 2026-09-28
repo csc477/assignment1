@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="/ResetPose">
+    <file>ResetPose.qml</file>
+  </qresource>
+</RCC>

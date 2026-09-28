@@ -1,0 +1,1 @@
+Not a ROS package tree: keeps colcon out of docker/ws when the repository is mounted inside the workspace.

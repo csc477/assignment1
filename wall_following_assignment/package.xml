@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>wall_following_assignment</name>
+  <version>2.0.0</version>
+  <description>CSC477 Assignment 1: PID wall following with a Clearpath Husky A200 (ROS2 Humble port)</description>
+  <maintainer email="florian@todo.todo">Florian Shkurti</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <!-- Gazebo GUI plugin (gui_plugins/ResetPose): Ignition Fortress -->
+  <depend>ignition-gui6</depend>
+  <depend>ignition-transport11</depend>
+  <depend>ignition-msgs8</depend>
+  <depend>ignition-plugin</depend>
+  <depend>qtbase5-dev</depend>
+  <depend>qtdeclarative5-dev</depend>
+  <depend>qtquickcontrols2-5-dev</depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>clearpath_gz</exec_depend>
+  <exec_depend>clearpath_config</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <test_depend>ament_cmake_pytest</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
